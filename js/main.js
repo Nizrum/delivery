@@ -11,3 +11,5 @@ function toggleModal () {
 cartButton.addEventListener('click', toggleModal);
 closeButton.addEventListener('click', toggleModal);
 cancelButton.addEventListener('click', toggleModal);
+
+new WOW().init();

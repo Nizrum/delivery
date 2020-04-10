@@ -280,6 +280,7 @@ body {
 }
 .food-row {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 8px;
@@ -326,6 +327,7 @@ body {
 .footer-buttons {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .modal-pricetag {
     background: #262626;
@@ -475,5 +477,27 @@ body {
     }
     .footer-link:not(:last-child) {
         margin-right: 0;
+    }
+    .modal-header {
+        flex-wrap: wrap;
+    }
+    .modal-title {
+        font-size: 24px;
+    }
+    .food-name {
+        font-size: 16px;
+    }
+    .food-price {
+        font-size: 16px;
+    }
+    .modal-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .modal-pricetag {
+        margin-bottom: 10px;
+    }
+    .cancel {
+        margin-top: 10px;
     }
 }

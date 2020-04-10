@@ -421,6 +421,7 @@ body {
     }
     .card {
         flex-basis: 100%;
+        animation: none;
     }
     .card-image {
         width: 100%;
@@ -481,6 +482,9 @@ body {
     .modal-header {
         flex-wrap: wrap;
     }
+    .modal-body {
+        margin-bottom: 10px;
+    }
     .modal-title {
         font-size: 24px;
     }
@@ -490,14 +494,16 @@ body {
     .food-price {
         font-size: 16px;
     }
-    .modal-footer {
-        flex-direction: column;
-        align-items: flex-start;
-    }
     .modal-pricetag {
-        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
     }
     .cancel {
-        margin-top: 10px;
+        display: none;
+    }
+    .submit {
+        font-size: 14px;
+        margin-right: 0;
     }
 }
